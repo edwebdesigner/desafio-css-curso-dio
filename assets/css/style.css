@@ -1,4 +1,4 @@
-@import url(/reset.css);
+@import url('/assets/css/reset.css');
 
 body {
   background-color: black;
@@ -45,11 +45,12 @@ p {
 
 .banner {
   border-bottom: 1px solid #33A8DB;
-  height: 605px;
+  height: auto;
   flex-shrink: 0;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .banner .banner-content {
@@ -63,7 +64,7 @@ p {
   
 }
 
-.logo {
+.banner .banner-content .logo {
   background-color: rgba(0, 0, 0, .2);
   height: 260px;
   width: 260px;
@@ -78,7 +79,7 @@ p {
   height: 100%;
   object-fit: contain;
 }
-button {
+.banner button {
   color: #31A8DD;
   font-size: 16px;  
   font-weight: bold;
@@ -95,14 +96,21 @@ button {
 
 #course-content {
   width: 800px;
-  height: 500px;
+  height: auto;
   text-align: center;
   margin: auto auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
   
 }
 
+#course-content p {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 #course-content .modules-list .module {
-  margin: 0 auto 20px;
+  margin: 20px auto 20px;
   color: #FFF;
   font-size: 16px;
   font-weight: 400;
@@ -152,6 +160,8 @@ padding: 150px 200px;
   width: 800px;
   text-align: center;
   margin: auto auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
   
 }
 #professional-challenges p {
